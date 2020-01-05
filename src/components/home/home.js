@@ -7,7 +7,7 @@ import Header from '../header/header'
 class Home extends Component {
     render  () {
         return(
-            <div>
+            <div style={{width: '100%', margin:'auto'}}>
                 <Header />
             </div>
             

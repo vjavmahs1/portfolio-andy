@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import { withRouter } from "react-router-dom";
 import './header.css'
-import {Navbar, Nav, NavDropdown} from 'react-bootstrap';
+import {Navbar, Nav} from 'react-bootstrap';
 
 function Header(props) {
 
@@ -10,15 +10,14 @@ function Header(props) {
     return (
         <div className="header">
             <Navbar bg="light" expand="lg">
-            <Navbar.Brand href=""></Navbar.Brand>
+            <Navbar.Brand><Link to="/">Andy</Link></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#link">Research Interests</Nav.Link>
-                <Nav.Link href="#link">Publications</Nav.Link>
-                <Nav.Link href="#link">CV</Nav.Link>
-                <Nav.Link href="#link">About Me</Nav.Link>
+                <Nav.Link ><Link to="/interest">Research Interests</Link></Nav.Link>
+                <Nav.Link href="#link"><Link to="/publications">Publications</Link></Nav.Link>
+                <Nav.Link href="#link"><Link to="/cv">CV</Link></Nav.Link>
+                <Nav.Link href="#link"><Link to="/about">About Me</Link> </Nav.Link>
 
                 </Nav>
             </Navbar.Collapse>
