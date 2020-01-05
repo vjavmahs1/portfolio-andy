@@ -8,11 +8,21 @@ class Publications extends Component {
         return(
             <div>
                 <Header/>
+                <h1 className = "header">Publications</h1>
+
+                <h3 className='sub-header'>In-press/Accepted-in-principle</h3>
                 <div className ="root">
                     <Publication/>
+                    <Publication/>
+                    <Publication/>
+                    <Publication/>
                 </div>
-
+                <h3 className='sub-header'>Published</h3>
                 <div className ="root">
+                    <Publication/>
+                    <Publication/>
+                    <Publication/>
+                    <Publication/>
                     <Publication/>
                 </div>
 

@@ -5,6 +5,4 @@
     grid-row-gap: 50px;
     /* Space between items */
 
-    grid-template-columns: repeat(1, minmax(180px, 1fr));
-
 }
