@@ -2,7 +2,7 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import Home from "./components/home/home";
-import Publications from "./components/publication/publications";
+import Publications from "./components/publications/publications";
 import Interest from "./components/Interest/interest";
 //import Resume from "./components/resume/resume";
 import AboutMe from "./components/aboutme/about";
