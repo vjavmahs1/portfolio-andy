@@ -19,14 +19,16 @@ function Header(props) {
               Research Interests
               {/* <Link to="/interest">Research Interests</Link> */}
             </Nav.Link>
-            <Nav.Link href="#link">
-              <Link to="/publications">Publications</Link>
+            <Nav.Link href="/publications">
+              Publications
+              {/* <Link to="/publications">Publications</Link> */}
             </Nav.Link>
             <Nav.Link href={PDF} target="_blank">
               CV
             </Nav.Link>
-            <Nav.Link href="#link">
-              <Link to="/about">About Me</Link>{" "}
+            <Nav.Link href="/about">
+              About Me
+              {/* <Link to="/about">About Me</Link>{" "} */}
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
