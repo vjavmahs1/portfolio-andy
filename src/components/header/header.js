@@ -8,15 +8,16 @@ import PDF from "../resume/CV_AndyJeesuKim.pdf";
 function Header(props) {
   return (
     <div className="header">
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="dark" expand="lg" variant="dark">
         <Navbar.Brand>
           <Link to="/">Andy</Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link>
-              <Link to="/interest">Research Interests</Link>
+            <Nav.Link href="/interest">
+              Research Interests
+              {/* <Link to="/interest">Research Interests</Link> */}
             </Nav.Link>
             <Nav.Link href="#link">
               <Link to="/publications">Publications</Link>
