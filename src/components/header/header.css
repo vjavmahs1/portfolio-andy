@@ -1,14 +1,13 @@
 .header {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .link {
-    color: black;
-    height: 100%;
+  color: black;
+  height: 100%;
 }
 .link:hover {
-    text-decoration: none;
-    color: #263238;
-    background-color: #eceff1;
-    
+  text-decoration: none;
+  color: #263238;
+  background-color: #eceff1;
 }
