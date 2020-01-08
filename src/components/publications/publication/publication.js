@@ -23,7 +23,7 @@ function Publication(props) {
             <Card className={classes.card}>
             <CardContent>
                 <Typography variant="body2" component="p"> 
-                    Anderson, B. A., Kim, H., Britton, M. K., & Kim, A. J. (in press). Measuring attention to reward as an individual trait: The value-driven attention questionnaire (VDAQ). Psychological Research.
+                  {props.body}
                 </Typography>
             </CardContent>
             <CardActions>
