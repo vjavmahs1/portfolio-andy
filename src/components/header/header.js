@@ -15,20 +15,17 @@ function Header(props) {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/interest">
-              Research Interests
-              {/* <Link to="/interest">Research Interests</Link> */}
+            <Nav.Link>
+              <Link to="/interest">Research Interests</Link>
             </Nav.Link>
-            <Nav.Link href="/publications">
-              Publications
-              {/* <Link to="/publications">Publications</Link> */}
+            <Nav.Link href="#link">
+              <Link to="/publications">Publications</Link>
             </Nav.Link>
             <Nav.Link href={PDF} target="_blank">
               CV
             </Nav.Link>
-            <Nav.Link href="/about">
-              About Me
-              {/* <Link to="/about">About Me</Link>{" "} */}
+            <Nav.Link href="#link">
+              <Link to="/about">About Me</Link>{" "}
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
