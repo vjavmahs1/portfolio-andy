@@ -8,7 +8,7 @@ import PDF from "../resume/CV_AndyJeesuKim.pdf";
 function Header(props) {
   return (
     <div className="header">
-      <Navbar bg="light" expand="sm">
+      <Navbar bg="light" expand="sm" fixed="top">
         <Navbar.Brand>
           <Link to="/">Andy</Link>
         </Navbar.Brand>

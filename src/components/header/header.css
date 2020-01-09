@@ -1,5 +1,6 @@
 .header {
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
+  background-color: #E9EAEC;
 }
 
 .link {
@@ -11,3 +12,5 @@
   color: #263238;
   background-color: #eceff1;
 }
+
+
