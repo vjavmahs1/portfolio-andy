@@ -8,8 +8,9 @@ class Publications extends Component {
         return(
             <div>
                 <Header/>
-                <h1 className = "header">Publications</h1>
+                    <h1 style={{textAlign:'center'}}>Publications</h1>
                 <h3 className='sub-header'>In-press/Accepted-in-principle</h3>
+
                 <div className ="root">
                     <Publication body={"Kim, A. J., & Anderson, B. A. (in prep). Inter-trial priming of monetary reward with social reward."}/>
                     <Publication body={"Kim, A. J., Lee, D. S., Anderson, B. A. (under review). The influence of threat on the efficiency of goal-directed attentional control."}/>
@@ -17,6 +18,7 @@ class Publications extends Component {
                     <Publication body={"Kim, A. J., & Anderson, B. A. (in prep). Arousal-biased competition explains reduced distraction by reward cues under threat."} />
                     <Publication body= {"Anderson, B. A., & Kim, A. J. (submitted). Selection history-driven signal suppression."} />
                 </div>
+
                 <h3 className='sub-header'>Published</h3>
                 <div className ="root">
                     <Publication body= {"Anderson, B. A., Kim, H., Britton, M. K., & Kim, A. J. (in press). Measuring attention to reward as an individual trait: The value-driven attention questionnaire (VDAQ). Psychological Research. "}/>

@@ -1,5 +1,9 @@
-.header {
-  text-align: center;
+
+
+.root {
+    background-color: #F4FBFD;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .sub-header {
