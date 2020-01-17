@@ -18,22 +18,27 @@ const  styles = {
 
 
 function Publication(props) {
-    const { classes } = props;
+    const { classes, body, link } = props;
     return (
         <div className = {classes.root}>
             <Card className={classes.card}>
             <CardContent>
                 <Typography variant="body2" component="p"> 
-                  {props.body}
+                  {body}
                 </Typography>
             </CardContent>
             <CardActions>
-                <Button size="small">Learn More</Button>
+                <Button size="small"><a href={link} target="_blank" >learn more</a> </Button>
             </CardActions>
             </Card>
         </div>
     )
 
+}
+
+Publication.defaultProps = {
+  body: "",
+  link: ""
 }
 
 export default withStyles(styles)(Publication);

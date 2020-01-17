@@ -1,9 +1,15 @@
 
 
 .root {
+
     background-color: #F4FBFD;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 3rem;
+
+
+}
+
+.outer {
+  margin: 5rem;
 }
 
 .sub-header {
