@@ -1,30 +1,24 @@
 .outer {
-    height: 100%;
-
+  height: 100%;
 }
 
 .wrapper {
-
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    justify-items: center;
-    align-items: center;
-    grid-row-gap: 3rem;
-    background-color: #F4FBFD;
-
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-items: center;
+  align-items: center;
+  grid-row-gap: 3rem;
+  background-color: #f4fbfd;
 }
 
 .header {
-    text-align: center;
+  text-align: center;
 }
 
 .pic {
-    grid-column: span 1.5;
-
+  grid-column: span 1.5;
 }
 .intro {
-    grid-column: span 1.5;
-    padding: 10%;
+  grid-column: span 1.5;
+  padding: 10%;
 }
-
-
