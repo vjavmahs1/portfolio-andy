@@ -17,20 +17,19 @@ const styles = {
 };
 
 function Research(props) {
-  const { classes } = props;
+  const { classes, body } = props;
 
   return (
     <div className={classes.root}>
       <Card className={classes.card}>
         <CardContent>
           <Typography variant="body2" component="p">
-            1. The Effects of Experimentally-Induced Anxiety on Attentional
-            Capture
+            {body}
           </Typography>
         </CardContent>
         <CardActions>
           <Button id="button" size="small">
-            Learn More
+            Representative Publications
           </Button>
         </CardActions>
       </Card>
