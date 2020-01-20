@@ -17,7 +17,7 @@ const styles = {
 };
 
 function Research(props) {
-  const { classes, body } = props;
+  const { classes, body, caption } = props;
 
   return (
     <div className={classes.root}>
@@ -26,12 +26,11 @@ function Research(props) {
           <Typography variant="body2" component="p">
             {body}
           </Typography>
+          <Typography variant="caption">
+            Representative Publications: <br></br>
+            {caption}
+          </Typography>
         </CardContent>
-        <CardActions>
-          <Button id="button" size="small">
-            Representative Publications
-          </Button>
-        </CardActions>
       </Card>
     </div>
   );
